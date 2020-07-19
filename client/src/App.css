@@ -123,7 +123,7 @@ a{
 #body{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 70%;
     background-color: rgba(199, 186, 202, 0.692);
     height: 100%;
@@ -212,14 +212,29 @@ a{
       margin: 0;
   }
 
+  /* #image-project{
+    height: 20vh;
+    width: 20vh;
+  } */
+
   /* Projects */
 
   #project-container{
       display: flex;
       flex-direction: row;
+      height: 35%;
+      width: 100%;
+      justify-content: space-around;
   }
 
   /* contact me */
+    #form-container{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    width: 30%;
+ }
+  
   
   #contactme-form {
     display: flex;
@@ -229,6 +244,15 @@ a{
     width: 30%;
   }
 
+  #sidebar-contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    background-color: rgba(154, 83, 172, 0.692);
+    height: 100%;
+    
+}
   /* about */
 
   #h3-about{

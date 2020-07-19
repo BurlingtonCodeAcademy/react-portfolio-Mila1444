@@ -9,7 +9,7 @@ import GeoVermonter from './images-icons/projects/geovermonter.png';
 function Projects(props) {
     return (
         <div id='main-container'>
-            <div id='body'>
+            <div id='body-home'>
                 <h3 id="h3-home"> Projects</h3>
                 <div id='project-container'>
                     <div id='image-wrapper'>
@@ -50,9 +50,6 @@ function Projects(props) {
                         <p>Description</p>
                     </div>
                 </div>
-            </div>
-            <div id='sidebar'>
-                <h3 id='h3-sidebar'> This will be a sidebar</h3>
             </div>
         </div>
     )

@@ -24,6 +24,7 @@ class ContactMe extends React.Component {
         return (
             <div id='main-container'>
                 <div id='body'>
+                    <div id='form-container'>
                     <h1> Here is how you can contact me</h1>
                     <form id='contactme-form' onSubmit={this.handleSubmit}>
                         <label>
@@ -44,9 +45,15 @@ class ContactMe extends React.Component {
                         </label>
                         <input type="submit" value="Submit" />
                     </form>
+                    </div>
                 </div>
-                <div id='sidebar'>
-                    <h1> This will be a sidebar</h1>
+                <div id='sidebar-contact-me'>
+                    <h3> If you would like to talk about:</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Mongot</li>
+                    </ul>
                 </div>
             </div>
         )
