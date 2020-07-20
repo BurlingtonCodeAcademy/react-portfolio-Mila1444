@@ -8,30 +8,29 @@ import GeoVermonter from './images-icons/projects/geovermonter.png';
 
 function Projects(props) {
     return (
-        <div id='main-container'>
-            <div id='body-home'>
+        <div id='body-projects'>
                 <h3 id="h3-home"> Projects</h3>
                 <div id='project-container'>
                     <div id='image-wrapper'>
                         <a id='image-project' href='https://github.com/BurlingtonCodeAcademy/guess-the-number-Mila1444'>
                             <img src={GuessNumber} />
                         </a>
-                        <h3>Guess the Number</h3>
-                        <p>Description</p>
+                        <h5>Guess the Number</h5>
+                        {/* <p>Description</p> */}
                     </div>
                     <div id='image-wrapper'>
                         <a id='image-project' href='https://github.com/BurlingtonCodeAcademy/remock-Mila1444'>
                             <img src={Remock} />
                         </a>
-                        <h3>Remock</h3>
-                        <p>Description</p>
+                        <h5>Remock</h5>
+                        {/* <p>Description</p> */}
                     </div>
                     <div id='image-wrapper'>
                         <a id='image-project' href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-david-mila-tictactoe'>
                             <img src={TicTacToe} />
                         </a>
-                        <h3>Tic-Tact-Toe</h3>
-                        <p>Description</p>
+                        <h5>Tic-Tact-Toe</h5>
+                        {/* <p>Description</p> */}
                     </div>
                 </div>
                 <div id='project-container'>
@@ -39,18 +38,17 @@ function Projects(props) {
                         <a id='image-project' href='https://github.com/BurlingtonCodeAcademy/yelpington-Mila1444'>
                             <img src={Yelpington} />
                         </a>
-                        <h3>Yelpington</h3>
-                        <p>Description</p>
+                        <h5>Yelpington</h5>
+                        {/* <p>Description</p> */}
                     </div>
                     <div id='image-wrapper'>
                         <a id='image-project' href='https://github.com/BurlingtonCodeAcademy/geo-vermonter-mila-g-j'>
                             <img src={GeoVermonter} />
                         </a>
-                        <h3>Geo-Vermonter</h3>
-                        <p>Description</p>
+                        <h5>Geo-Vermonter</h5>
+                        {/* <p>Description</p> */}
                     </div>
                 </div>
-            </div>
         </div>
     )
 

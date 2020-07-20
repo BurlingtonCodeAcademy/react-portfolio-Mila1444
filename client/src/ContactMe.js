@@ -8,7 +8,7 @@ class ContactMe extends React.Component {
         this.state = { value: '' }
     }
 
-//should this stay here or passed as props
+    //should this stay here or passed as props
     handleChange = (event) => {
         this.setState({ value: event.target.value });
     }
@@ -24,35 +24,44 @@ class ContactMe extends React.Component {
         return (
             <div id='main-container'>
                 <div id='body'>
+                    <h2> Send Me A Meassage:</h2>
                     <div id='form-container'>
-                    <h1> Here is how you can contact me</h1>
-                    <form id='contactme-form' onSubmit={this.handleSubmit}>
-                        <label>
-                            Name:
-                        <input type="text" value={this.state.value} onChange={this.handleChange} />
-                        </label>
-                        <label>
-                            Phone Number:
-                        <input type="text" value={this.state.value} onChange={this.handleChange} />
-                        </label>
-                        <label>
-                            Email:
-                        <input type="text" value={this.state.value} onChange={this.handleChange} />
-                        </label>
-                        <label>
-                            Message:
-                        <textarea value={this.state.value} onChange={this.handleChange} />
-                        </label>
-                        <input type="submit" value="Submit" />
-                    </form>
+                        <div id='form-text'>
+                            <div>Name</div>
+                            <div>Phone Number</div>
+                            <div>Email</div>
+                            <div>Message</div>
+                        </div>
+                        <form id='contactme-form' onSubmit={this.handleSubmit}>
+                            <label>
+                                
+                        <input id='text-message' type="text" value={this.state.value} onChange={this.handleChange} />
+                            </label>
+                            <label>
+                                
+                        <input id='text-message' type="text" value={this.state.value} onChange={this.handleChange} />
+                            </label>
+                            <label>
+                                
+                        <input id='text-message' type="text" value={this.state.value} onChange={this.handleChange} />
+                            </label>
+                            <label>
+                                
+                        <textarea id='text-message' value={this.state.value} onChange={this.handleChange} />
+                            </label>
+                            <input id='button' type="submit" value="Submit" />
+                        </form>
                     </div>
+
                 </div>
                 <div id='sidebar-contact-me'>
-                    <h3> If you would like to talk about:</h3>
+                    <h3> Send me a message if you would like to talk about:</h3>
                     <ul>
                         <li>JavaScript</li>
                         <li>React</li>
-                        <li>Mongot</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>And More...</li>
                     </ul>
                 </div>
             </div>

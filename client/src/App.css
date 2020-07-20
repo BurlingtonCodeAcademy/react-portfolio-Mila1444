@@ -136,12 +136,13 @@ a{
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    background-color: rgba(154, 83, 172, 0.692);
+    background-color: rgba(178, 151, 185, 0.692);
     height: 100%;
+    padding-left: 2%;
     
 }
 
-/* home */
+/* ---------------------------------- home ---------------------------------- */
 
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images-icons/photos/mila-one.jpg');
@@ -190,9 +191,9 @@ a{
       margin-bottom: 2%;
   }
 
-  /* sidebar */
+/* --------------------------------- sidebar -------------------------------- */
 
-  #h3-sidebar{
+  #h4-sidebar{
     text-align: center;
     margin: 3%
   }
@@ -207,41 +208,73 @@ a{
   }
 
   #image-sidebar{
-      width: 100%;
-      height: 50%;
+      width: 95%;
+      height: 30%;
       margin: 0;
   }
 
-  /* #image-project{
-    height: 20vh;
-    width: 20vh;
-  } */
+  
+/* -------------------------------- Projects -------------------------------- */
 
-  /* Projects */
+
+  #body-projects{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    width: 100%;
+    background-color: rgba(199, 186, 202, 0.692);
+    height: 98%;
+}
 
   #project-container{
       display: flex;
       flex-direction: row;
-      height: 35%;
+      height: 40%;
       width: 100%;
       justify-content: space-around;
+      margin: 2%;
+      padding: .5%;
   }
 
-  /* contact me */
-    #form-container{
-    display: flex;
-    flex-direction: column;
-    height: 35%;
-    width: 30%;
- }
+  #image-wrapper{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      width: 25%;
+  }
+
   
+
+
+/* ------------------------------- contact me ------------------------------- */
+
+  #form-container{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 55%;
+    margin-left: 22%;
+    border: rgba(0, 0, 0, 0.3) 2px solid;
+    padding: 3%;
+    margin-bottom: 5%;
+  }
   
   #contactme-form {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
-    width: 30%;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+  }
+
+  #form-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+    width: 50%;
   }
 
   #sidebar-contact-me{
@@ -250,12 +283,36 @@ a{
     justify-content: flex-start;
     width: 30%;
     background-color: rgba(154, 83, 172, 0.692);
-    height: 100%;
-    
+    height: 100%; 
+    padding: 3%;
 }
-  /* about */
+
+  #text-message{
+    width: 90%;
+    
+  }
+
+  #button{
+    width: 95%;
+  }
+
+/* -------------------------------- about me -------------------------------- */
 
   #h3-about{
     margin: 3%;
     text-align: center;
   }
+
+/* ------------------------------ Work History ------------------------------ */
+
+  #resume-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 50%;
+  }
+
+
+
+  
